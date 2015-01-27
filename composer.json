@@ -1,9 +1,6 @@
 {
     "name": "ryanwhetstone/combine",
-    "replace": { "ryanwhetstone/combine": "self.version" },
-    "description": "Package for utilizing the goodness of WordPress with the greatness of Laravel.",
-    "homepage": "http://github.com/ryanwhetstone/combine",
-    "license": "MIT",
+    "description": "",
     "authors": [
         {
             "name": "Ryan Whetstone",
@@ -11,16 +8,13 @@
         }
     ],
     "require": {
-        "php":  ">=5.3.0",
-        "illuminate/database": "*",
-        "phpunit/phpunit": "4.2.2"
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "psr-4": {
-            "Combine\\": "src/"
-        },
-        "classmap": [
-            "models"
-        ]
-    }
+        "psr-0": {
+            "Ryanwhetstone\\Combine\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }
